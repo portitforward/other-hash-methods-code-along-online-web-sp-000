@@ -9,5 +9,5 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  groceries.map{|k, v| }
+  groceries.map{|k, v| k.values}
 end
